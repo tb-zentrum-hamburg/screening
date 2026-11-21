@@ -5,9 +5,9 @@ Interaktive Entscheidungshilfen des Tuberkulose-Zentrums Hamburg (Gesundheitsamt
 | Datei | Standort | Version | Stand |
 |---|---|---|---|
 | `index.html` | Standortauswahl | – | 21.11.2026 |
-| `uma.html` | Gutachtendienst UMA (Gesundheitsamt Altona) | 4.9 | 21.11.2026 |
-| `cmr.html` | Caffamacherreihe (CMR) | 1.6 | 21.11.2026 |
-| `bks.html` | Ankunftszentrum Bargkoppelstieg (BKS) | 1.1 | 21.11.2026 |
+| `cmr.html` | Caffamacherreihe (CMR) | 1.7 | 21.11.2026 |
+| `uma.html` | Gutachtendienst UMA (Gesundheitsamt Altona) | 5.0 | 21.11.2026 |
+| `bks.html` | Ankunftszentrum Bargkoppelstieg (BKS) | 1.2 | 21.11.2026 |
 
 Jede Entscheidungshilfe enthält Risikoabfrage, Handlungsplan mit Zuständigkeiten, Prozessschema (SVG, durchlaufene Pfade hervorgehoben) und Zuständigkeitsmatrix. Der Änderungsverlauf steht jeweils in der Seite unter „Allgemeine Grundlagen und Grenzen“.
 
