@@ -5,7 +5,7 @@ Interaktive Entscheidungshilfen des Tuberkulose-Zentrums Hamburg (Gesundheitsamt
 | Datei | Standort / Variante | Version | Stand |
 |---|---|---|---|
 | `index.html` | Auswahlseite | – | 21.11.2026 |
-| `cmr.html` | Caffamacherreihe (CMR) | 2.0 | 21.11.2026 |
+| `cmr.html` | Caffamacherreihe (CMR) | 2.1 | 21.11.2026 |
 | `uma.html` | Gutachtendienst UMA (Gesundheitsamt Altona) | 5.2 | 21.11.2026 |
 | `bks.html` | Ankunftszentrum Bargkoppelstieg (BKS) | 1.5 | 21.11.2026 |
 | `praxis.html` | Ohne Indikation nach § 36 IfSG (Haus-, Betriebs- und weitere Ärzt(inn)en) | 1.6 | 21.11.2026 |
