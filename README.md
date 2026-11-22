@@ -20,9 +20,9 @@ Zweite Fassung ohne Hamburg-Gestaltung und ohne Standortbezug, anwendbar für al
 
 | Datei | Inhalt | Version | Stand |
 |---|---|---|---|
-| `allgemein/index.html` | Auswahlseite | 1.1 | 21.11.2026 |
-| `allgemein/ifsg36.html` | Untersuchung nach § 36 IfSG mit Wahl der Personengruppe (allgemein, Aufnahme-/Ankunftseinrichtung, UMA); fasst CMR, BKS und UMA zusammen | 1.1 | 21.11.2026 |
-| `allgemein/praxis.html` | Freiwilliges Screening ohne Indikation nach § 36 IfSG (Haus-, Betriebs- und weitere Ärzt(inn)en) | 1.1 | 21.11.2026 |
+| `allgemein/index.html` | Auswahlseite | 1.2 | 21.11.2026 |
+| `allgemein/ifsg36.html` | Untersuchung nach § 36 IfSG mit Wahl der Personengruppe (allgemein, Aufnahme-/Ankunftseinrichtung, UMA); fasst CMR, BKS und UMA zusammen | 1.2 | 21.11.2026 |
+| `allgemein/praxis.html` | Freiwilliges Screening ohne Indikation nach § 36 IfSG (Haus-, Betriebs- und weitere Ärzt(inn)en) | 1.2 | 21.11.2026 |
 
 Aufruf unter derselben Pages-Adresse mit Pfad `/allgemein/`. Änderungsverlauf jeweils in der Seite.
 
