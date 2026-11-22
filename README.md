@@ -4,7 +4,7 @@ Interaktive Entscheidungshilfen des Tuberkulose-Zentrums Hamburg (Gesundheitsamt
 
 | Datei | Standort / Variante | Version | Stand |
 |---|---|---|---|
-| `index.html` | Auswahlseite | – | 21.11.2026 |
+| `index.html` | Auswahlseite | 1.1 | 22.11.2026 |
 | `cmr.html` | Caffamacherreihe (CMR) | 2.4 | 22.11.2026 |
 | `uma.html` | Gutachtendienst UMA (Gesundheitsamt Altona) | 5.4 | 22.11.2026 |
 | `bks.html` | Ankunftszentrum Bargkoppelstieg (BKS) | 1.8 | 22.11.2026 |
@@ -32,4 +32,4 @@ GitHub Pages: Branch `main`, Ordner `/` (Root). Lokal genügt das Öffnen von `i
 
 ## Versionspflege
 
-Bei jeder Änderung an einer Entscheidungshilfe (auch in `allgemein/`) die Versionsnummer anheben, den Änderungsverlauf in der Seite ergänzen und die Tabelle oben sowie die Versionsangabe in `index.html` anpassen.
+Bei jeder Änderung an einer Entscheidungshilfe (auch in `allgemein/`) die Versionsnummer anheben, den Änderungsverlauf in der Seite ergänzen und die Tabelle oben sowie die Versionsangabe in `index.html` anpassen; auch die Auswahlseite selbst trägt eine Version (Kopf und Fußzeile). Änderungen an `index.html`: 1.1 (22.11.2026) Versionsanzeige eingeführt, Kontakt-Fenster; zuvor ohne Zählung.
