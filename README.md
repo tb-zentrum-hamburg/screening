@@ -14,21 +14,13 @@ Jede Entscheidungshilfe enthält Risikoabfrage, Handlungsplan mit Zuständigkeit
 
 Fachliche Arbeitsversionen, keine automatisierte Diagnose, keine rechtsverbindliche Freigabe. Die Seiten sind mit `noindex` gekennzeichnet.
 
-## Neutrale Fassung (`allgemein/`)
+## Allgemeine Fassung (eigenes Projekt)
 
-Zweite Fassung ohne Hamburg-Gestaltung und ohne Standortbezug, anwendbar für alle Gesundheitsämter und ärztlichen Praxen; die Zuständigkeiten sind allgemein bezeichnet (untersuchende Stelle, Röntgenstelle/Radiologie, Pneumologie, Pädiatrie). Die Hamburger Fassung oben bleibt unverändert.
-
-| Datei | Inhalt | Version | Stand |
-|---|---|---|---|
-| `allgemein/index.html` | Auswahlseite | 1.2 | 21.11.2026 |
-| `allgemein/ifsg36.html` | Untersuchung nach § 36 IfSG mit Wahl der Personengruppe (allgemein, Aufnahme-/Ankunftseinrichtung, UMA); fasst CMR, BKS und UMA zusammen | 1.3 | 23.11.2026 |
-| `allgemein/praxis.html` | Freiwilliges Screening ohne Indikation nach § 36 IfSG (Haus-, Betriebs- und weitere Ärzt(inn)en) | 1.3 | 23.11.2026 |
-
-Aufruf unter derselben Pages-Adresse mit Pfad `/allgemein/`. Änderungsverlauf jeweils in der Seite.
+Die neutrale Fassung ohne Hamburg-Gestaltung und ohne Standortbezug ist ein eigenständiges Projekt in einem eigenen Repository (`tb-zentrum-hamburg/screening_tb-risk`, Pages-Adresse `https://tb-zentrum-hamburg.github.io/screening_tb-risk/`) und nicht mehr Unterseite dieser Hamburger Fassung. Fachliche Änderungen werden bei Bedarf in beiden Projekten mit jeweils eigener Version nachgeführt.
 
 ## Länderdaten (Inzidenz, MDR/RR)
 
-Die Seiten (einschließlich `allgemein/ifsg36.html` und `allgemein/praxis.html`) enthalten eine eingebettete Tabelle und den Knopf „Daten aktualisieren“. Er lädt `daten.json` von derselben Adresse und zeigt vor der Übernahme eine Änderungsliste (Hinweis, wenn sich die Einstufung Inzidenz > 100/100.000 oder MDR > 10 % ändert); die Übernahme gilt nur für die laufende Sitzung. `daten.json` pflegt die GitHub-Aktion `.github/workflows/daten.yml` (monatlich oder manuell) mit `tools/update_daten.py` aus den WHO-TB-Schätzungen (Inzidenz `e_inc_100k`, MDR/RR-Anteil `e_rr_pct_new`). Fixwerte in `tools/pins.json` (derzeit keine) werden nie überschrieben; `tools/laender.json` ordnet die Ländernamen den ISO-Codes zu. `tools/patch_knopf.py` fügt den Knopf in die Seiten ein (nach Neuaufbau der neutralen Seiten erneut ausführen). Die eingebettete Tabelle wird nicht automatisch aktualisiert.
+Die Seiten enthalten eine eingebettete Tabelle und den Knopf „Daten aktualisieren“. Er lädt `daten.json` von derselben Adresse und zeigt vor der Übernahme eine Änderungsliste (Hinweis, wenn sich die Einstufung Inzidenz > 100/100.000 oder MDR > 10 % ändert); die Übernahme gilt nur für die laufende Sitzung. `daten.json` pflegt die GitHub-Aktion `.github/workflows/daten.yml` (monatlich oder manuell) mit `tools/update_daten.py` aus den WHO-TB-Schätzungen (Inzidenz `e_inc_100k`, MDR/RR-Anteil `e_rr_pct_new`). Fixwerte in `tools/pins.json` (derzeit keine) werden nie überschrieben; `tools/laender.json` ordnet die Ländernamen den ISO-Codes zu. `tools/patch_knopf.py` fügt den Knopf in die Seiten ein. Die eingebettete Tabelle wird nicht automatisch aktualisiert.
 
 ## Veröffentlichung
 
