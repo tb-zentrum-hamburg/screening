@@ -5,10 +5,10 @@ Interaktive Entscheidungshilfen des Tuberkulose-Zentrums Hamburg (Gesundheitsamt
 | Datei | Standort / Variante | Version | Stand |
 |---|---|---|---|
 | `index.html` | Auswahlseite | 1.1 | 22.11.2026 |
-| `cmr.html` | Caffamacherreihe (CMR) | 2.4 | 22.11.2026 |
-| `uma.html` | Gutachtendienst UMA (Gesundheitsamt Altona) | 5.4 | 22.11.2026 |
-| `bks.html` | Ankunftszentrum Bargkoppelstieg (BKS) | 1.8 | 22.11.2026 |
-| `praxis.html` | Ohne Indikation nach § 36 IfSG (Haus-, Betriebs- und weitere Ärzt(inn)en) | 1.8 | 22.11.2026 |
+| `cmr.html` | Caffamacherreihe (CMR) | 2.5 | 23.11.2026 |
+| `uma.html` | Gutachtendienst UMA (Gesundheitsamt Altona) | 5.5 | 23.11.2026 |
+| `bks.html` | Ankunftszentrum Bargkoppelstieg (BKS) | 1.9 | 23.11.2026 |
+| `praxis.html` | Ohne Indikation nach § 36 IfSG (Haus-, Betriebs- und weitere Ärzt(inn)en) | 1.9 | 23.11.2026 |
 
 Jede Entscheidungshilfe enthält Risikoabfrage, Handlungsplan mit Zuständigkeiten, Prozessschema (SVG, durchlaufene Pfade hervorgehoben) und Zuständigkeitsmatrix. Der Änderungsverlauf steht jeweils in der Seite unter „Allgemeine Grundlagen und Grenzen“.
 
@@ -21,10 +21,14 @@ Zweite Fassung ohne Hamburg-Gestaltung und ohne Standortbezug, anwendbar für al
 | Datei | Inhalt | Version | Stand |
 |---|---|---|---|
 | `allgemein/index.html` | Auswahlseite | 1.2 | 21.11.2026 |
-| `allgemein/ifsg36.html` | Untersuchung nach § 36 IfSG mit Wahl der Personengruppe (allgemein, Aufnahme-/Ankunftseinrichtung, UMA); fasst CMR, BKS und UMA zusammen | 1.2 | 21.11.2026 |
-| `allgemein/praxis.html` | Freiwilliges Screening ohne Indikation nach § 36 IfSG (Haus-, Betriebs- und weitere Ärzt(inn)en) | 1.2 | 21.11.2026 |
+| `allgemein/ifsg36.html` | Untersuchung nach § 36 IfSG mit Wahl der Personengruppe (allgemein, Aufnahme-/Ankunftseinrichtung, UMA); fasst CMR, BKS und UMA zusammen | 1.3 | 23.11.2026 |
+| `allgemein/praxis.html` | Freiwilliges Screening ohne Indikation nach § 36 IfSG (Haus-, Betriebs- und weitere Ärzt(inn)en) | 1.3 | 23.11.2026 |
 
 Aufruf unter derselben Pages-Adresse mit Pfad `/allgemein/`. Änderungsverlauf jeweils in der Seite.
+
+## Länderdaten (Inzidenz, MDR/RR)
+
+Die Seiten (einschließlich `allgemein/ifsg36.html` und `allgemein/praxis.html`) enthalten eine eingebettete Tabelle und den Knopf „Daten aktualisieren“. Er lädt `daten.json` von derselben Adresse und zeigt vor der Übernahme eine Änderungsliste (Hinweis, wenn sich die Einstufung Inzidenz > 100/100.000 oder MDR > 10 % ändert); die Übernahme gilt nur für die laufende Sitzung. `daten.json` pflegt die GitHub-Aktion `.github/workflows/daten.yml` (monatlich oder manuell) mit `tools/update_daten.py` aus den WHO-TB-Schätzungen (Inzidenz `e_inc_100k`, MDR/RR-Anteil `e_rr_pct_new`). Fixwerte in `tools/pins.json` (derzeit Ukraine MDR 29 %, laut Positionspapier aus WHO-Länderprofil) werden nicht überschrieben; `tools/laender.json` ordnet die Ländernamen den ISO-Codes zu. `tools/patch_knopf.py` fügt den Knopf in die Seiten ein (nach Neuaufbau der neutralen Seiten erneut ausführen). Die eingebettete Tabelle wird nicht automatisch aktualisiert.
 
 ## Veröffentlichung
 
