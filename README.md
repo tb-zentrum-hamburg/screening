@@ -28,4 +28,4 @@ GitHub Pages: Branch `main`, Ordner `/` (Root). Lokal genügt das Öffnen von `i
 
 ## Versionspflege
 
-Bei jeder Änderung an einer Entscheidungshilfe (auch in `allgemein/`) die Versionsnummer anheben, den Änderungsverlauf in der Seite ergänzen und die Tabelle oben sowie die Versionsangabe in `index.html` anpassen; auch die Auswahlseite selbst trägt eine Version (Kopf und Fußzeile). Änderungen an `index.html`: 1.1 (22.11.2026) Versionsanzeige eingeführt, Kontakt-Fenster; zuvor ohne Zählung.
+Bei jeder Änderung an einer Entscheidungshilfe die Versionsnummer anheben, den Änderungsverlauf in der Seite ergänzen und die Tabelle oben sowie die Versionsangabe in `index.html` anpassen; auch die Auswahlseite selbst trägt eine Version (Kopf und Fußzeile). Änderungen an `index.html`: 1.1 (22.11.2026) Versionsanzeige eingeführt, Kontakt-Fenster; zuvor ohne Zählung.
